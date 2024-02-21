@@ -1,0 +1,43 @@
+.ContentPlacement-container {
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+  background-color: #fff;
+
+  a {
+    position: absolute;
+  }
+}
+
+.ContentPlacement-cover {
+  width: 374px;
+  height: 217px;
+}
+
+.ContentPlacement-content {
+  padding: 36px 45px;
+}
+
+.ContentPlacement-price {
+  display: flex;
+  padding-bottom: 16px;
+  justify-content: space-between;
+}
+
+.ContentPlacement-continue {
+  width: 373px;
+  height: 440px;
+  background-size: cover;
+  a {
+    padding-top: 380px;
+    padding-left: 55px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+  }
+}

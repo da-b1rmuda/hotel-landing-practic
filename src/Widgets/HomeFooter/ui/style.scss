@@ -1,0 +1,32 @@
+.HomeFooter-container {
+  background-image: url("/footer-bg.png");
+  height: 341px;
+  width: 1168px;
+  padding: 44px 52px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  line-height: 200%;
+  a {
+    color: #cc9933;
+    line-height: 150%;
+    text-decoration: none;
+  }
+}
+
+.HomeFooter-first {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-right: 102px;
+}
+.HomeFooter-second {
+  display: flex;
+  flex-direction: column;
+  width: 610px;
+}
+.HomeFooter-third {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,45 @@
+.ContentTour-container {
+  background-color: #fff;
+  padding: 32px 28px;
+  border-radius: 15px;
+  display: flex;
+
+  p {
+    padding-left: 3px;
+    font-size: 12px;
+  }
+  select {
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    padding: 0 26px 0 0; /* Добавим небольшой отступ справа для стрелочки */
+  }
+}
+
+.ContentTour-item {
+  padding: 0 20px;
+  border-right: 1px solid #e1e1e1;
+}
+
+.ContentTour-item-date {
+  select::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Позиционируем стрелку в нужное место */
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url("arrow-down.svg") no-repeat center;
+  }
+}
+
+.ContentTour-item-count {
+  padding-top: 5px !important;
+  padding-right: 60px !important;
+  border-bottom: 1px solid #cccccc !important;
+}
+
+.ContentTour-button {
+  padding-left: 20px;
+}

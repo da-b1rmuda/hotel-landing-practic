@@ -1,0 +1,43 @@
+.ContentSpecialOfferCard-container {
+  border-radius: 15px;
+  width: 573px;
+  height: 258px;
+  padding: 40px;
+
+  a {
+    color: #ffcc66;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+}
+
+.ContentSpecialOfferCard-text {
+  width: 300px;
+  color: white;
+  padding-bottom: 47px;
+  h3 {
+    font-size: 40px;
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
+
+.large-style {
+  height: 540px;
+  .ContentSpecialOfferCard-text {
+    h3 {
+      padding-top: 180px;
+      font-size: 60px;
+    }
+    span {
+      font-size: 30px;
+    }
+  }
+}

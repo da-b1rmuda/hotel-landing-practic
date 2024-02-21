@@ -1,0 +1,41 @@
+.HomeHeaderNavbar-container {
+  background-color: #fff;
+  padding: 14px 45px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HomeHeaderNavbar-navigation {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav li:first-child a {
+    padding: 14px 23px 14px 0;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 23px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.HomeHeaderNavbar-buttons {
+  padding-left: 57px;
+  border-left: 1px solid #e1e1e1;
+
+  .Button-style-default:first-child {
+    margin-right: 40px;
+  }
+}

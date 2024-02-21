@@ -1,0 +1,17 @@
+.Button-style-default {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #cc9933;
+  font-size: 16px;
+  border: 1px solid #cc9933;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #cc9933;
+    color: #fff;
+  }
+  &:active {
+    background-color: #a47312;
+    color: #fff;
+  }
+}

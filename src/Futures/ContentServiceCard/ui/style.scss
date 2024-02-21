@@ -1,0 +1,41 @@
+.ContentServiceCard-container {
+  width: 573px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.ContentServiceCard-cover {
+  img {
+    width: 573px;
+    height: 165px;
+  }
+}
+
+.ContentServiceCard-text {
+  padding: 26px 45px;
+
+  a {
+    font-size: 20px;
+    color: #cc9933;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a:hover {
+    color: #cc9933;
+  }
+  a:active {
+    color: #a47312;
+  }
+  img {
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+  p {
+    padding-top: 15px;
+    width: 402px;
+    line-height: 200%;
+  }
+}

@@ -1,0 +1,48 @@
+.HomeHeader-container {
+  padding-bottom: 70px;
+}
+
+.HomeHeader-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.HomeHeader-logo-and-number {
+  display: flex;
+  align-items: center;
+  a {
+    padding-left: 40px;
+    color: #666666;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #cc9933;
+  }
+  a:active {
+    color: #a47312;
+  }
+}
+
+.HomeHeader-account {
+  display: flex;
+  align-items: center;
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #cc9933;
+  }
+  a:hover {
+    color: #e9c479;
+  }
+  a:active {
+    color: #a47312;
+  }
+  img {
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+}

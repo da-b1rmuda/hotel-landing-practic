@@ -1,0 +1,48 @@
+.ContentContacts-container {
+  display: flex;
+  background-color: #fff;
+  padding: 44px 46px;
+  border-radius: 15px;
+  gap: 50px;
+}
+
+.ContentContacts-text {
+  display: flex;
+  width: 375px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.ContentContacts-title {
+  width: 130px;
+}
+
+.ContentContacts-text:not(:first-child) {
+  padding-top: 25px;
+}
+
+.ContentContacts-description {
+  font-size: 16px;
+  flex-grow: 1;
+  p {
+    line-height: 150%;
+  }
+}
+
+.ContentContacts-cover {
+  img {
+    width: 653px;
+    height: 528px;
+  }
+}
+
+.ContentContacts-text {
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.ContentContacts-button {
+  padding-top: 45px;
+}
